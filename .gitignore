@@ -20,6 +20,7 @@
 # OpsGenie specific high-churn files
 .idea/**/compiler.xml
 .idea/**/vcs.xml
+.idea/**/encodings.xml
 
 # Mongo Explorer plugin
 .idea/**/mongoSettings.xml
