@@ -1,0 +1,21 @@
+body {
+    padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+    body {
+        padding-top: 56px;
+    }
+}
+
+.nav, .pagination, .carousel, .card-title a {
+    cursor: pointer;
+}
+
+.teams {
+    text-align: left;
+}
+
+.add-team-btn {
+    margin: 10px 0;
+}

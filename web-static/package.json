@@ -1,0 +1,22 @@
+{
+  "title": "Onboarding Frontend",
+  "name": "onboarding-frontend",
+  "version": "1.0.0",
+  "description": "A basic AngularJS & Bootstrap Frontend Project for Onboarding Spring Boot Application Backend",
+  "license": "MIT",
+  "author": "Zafer Genckaya <zafer@opsgenie.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.com/opsgenie/onboarding-spring-boot-project.git"
+  },
+  "dependencies": {
+    "jquery": "3.3.1",
+    "angular": "1.7.2",
+    "angular-route": "1.7.2",
+    "angular-animate": "1.7.2",
+    "angular-touch": "1.7.2",
+    "bootstrap": "4.1.2",
+    "ui-bootstrap4": "3.0.4",
+    "font-awesome": "4.7.0"
+  }
+}
