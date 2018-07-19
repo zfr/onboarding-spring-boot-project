@@ -2,6 +2,7 @@ package com.opsgenie.onboarding.team.support;
 
 import com.opsgenie.onboarding.team.Team;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -13,7 +14,7 @@ public class TeamServiceImpl implements TeamService {
     private final TeamRepository repository;
 
     @Autowired
-    public TeamServiceImpl(TeamRepository repository) {
+    public TeamServiceImpl(@Qualifier(value = "amazonTeamRepository") TeamRepository repository) {
         this.repository = repository;
     }
 

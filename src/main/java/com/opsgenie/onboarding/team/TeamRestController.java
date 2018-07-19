@@ -76,9 +76,4 @@ public class TeamRestController {
 
         return ResponseEntity.ok().build();
     }
-
-    @RequestMapping(value = "/{teamId}/assignTeamMember", method = RequestMethod.POST)
-    public ResponseEntity assignTeamMember(@RequestBody List<String> userIds) {
-        return ResponseEntity.accepted().body("will be processed async");
-    }
 }

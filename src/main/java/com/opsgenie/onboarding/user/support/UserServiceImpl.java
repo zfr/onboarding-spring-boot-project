@@ -2,6 +2,7 @@ package com.opsgenie.onboarding.user.support;
 
 import com.opsgenie.onboarding.user.User;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -12,7 +13,7 @@ public class UserServiceImpl implements UserService {
     private final UserRepository repository;
 
     @Autowired
-    public UserServiceImpl(UserRepository repository) {
+    public UserServiceImpl(@Qualifier(value = "amazonUserRepository") UserRepository repository) {
         this.repository = repository;
     }
 

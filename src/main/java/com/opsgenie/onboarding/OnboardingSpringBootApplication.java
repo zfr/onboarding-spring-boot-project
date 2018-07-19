@@ -5,6 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
+@ComponentScan("com.opsgenie.aws")
 @ComponentScan("com.opsgenie.onboarding")
 public class OnboardingSpringBootApplication {
 
